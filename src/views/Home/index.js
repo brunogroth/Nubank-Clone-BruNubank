@@ -43,7 +43,7 @@ export default function Home({navigation, route}) {
   return (
     <View style={styles.container}>
       <Header name={name}/>
-      <Balance saldo="19.250,90" gastos="3.012,50"/>
+      <Balance saldo="9.295,90" gastos="5.405,13"/>
       <Actions/>
       <Text style={styles.title}>Últimas movimentações</Text>
 

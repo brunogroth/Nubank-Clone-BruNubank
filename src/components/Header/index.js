@@ -8,7 +8,7 @@ export default function Header({ name }) {
     return (
         <View style={styles.container}>
             <View style={styles.content}>
-                <Text style={styles.username}>Olá, {/*{name}*/} Bruno Groth!</Text>
+                <Text style={styles.username}>Olá,{/*{name}*/} Bruno Groth!</Text>
                 <View style={styles.icons}>
                     <TouchableOpacity activeOpacity={0.4} style={styles.buttonShowValues}>
                         <Feather name="eye" size={20} color='#FFF' onPress={() => setShowValue(!showValue)} />
