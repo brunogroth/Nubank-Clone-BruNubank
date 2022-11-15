@@ -2,6 +2,11 @@
 
 A Simple [Nubank](https://nubank.com.br/) clone made in React Native using Expo.
 
+## Screenshots:
+![image](https://user-images.githubusercontent.com/96024737/202013484-85247170-948b-4bed-b306-f8c429567cb5.png)
+![image](https://user-images.githubusercontent.com/96024737/202013507-46135dd5-cc51-4904-ac6d-9bd479ef4d38.png)
+![image](https://user-images.githubusercontent.com/96024737/202014859-95c6c698-8225-49da-bc57-8c6f98c56e70.png)
+
 ## Built With
 
 - 💙 React Native
