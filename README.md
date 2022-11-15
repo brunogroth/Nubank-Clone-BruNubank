@@ -42,7 +42,7 @@ A Simple [Nubank](https://nubank.com.br/) clone made in React Native using Expo.
 
 - To run app in the development mode run 
 - ```
-  expo start
+  npx expo start
   ```
 # Author
 
