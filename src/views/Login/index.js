@@ -4,19 +4,15 @@ import { View, Text, StyleSheet, TextInput, TouchableOpacity, Linking } from 're
 export default function Login({ navigation, route }) {
     const [name, SetName] = useState('Bruno Groth');
 
+
     return (
         <View style={styles.container}>
             <View style={styles.cardLogin}>
                 <Text style={styles.title}>Bem vindo(a) ao BruNubank!</Text>
                 <Text style={styles.label}>Seu nome:</Text>
-                <TextInput style={styles.input} placeholder={'Seu nome aqui'} onChangeText={newName => SetName(newName)}></TextInput>
+                <TextInput style={styles.input} placeholder={'Seu nome aqui'} onChangeText={SetName}></TextInput>
                 <TouchableOpacity>
-                    <Text style={styles.buttonLogin} onPress={() => navigation.navigate("Home",
-    {
-        params: { 
-            name: name
-        }
-    })}
+                    <Text style={styles.buttonLogin} onPress={() => {navigation.navigate("Home", { name:name })}}
                         >LOGIN</Text>
                 </TouchableOpacity>
             </View>

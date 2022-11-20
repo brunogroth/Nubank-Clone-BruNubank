@@ -37,12 +37,11 @@ const list = [
 ];
 
 //rnfunc to create a new func
-export default function Home({navigation, route}) {
-  let name=route.params.name;
+export default function Home({route}) {
 
   return (
     <View style={styles.container}>
-      <Header name={name}/>
+      <Header name={route.params.name}/>
       <Balance saldo="9.295,90" gastos="5.405,13"/>
       <Actions/>
       <Text style={styles.title}>Últimas movimentações</Text>
