@@ -16,7 +16,7 @@ A Simple [Nubank](https://nubank.com.br/) clone made in React Native using Expo.
 
 ## 🚀 Try it!
 😱 You can **download the APK** of this application! Click here:
-[Download APK](https://expo.dev/artifacts/eas/3UfL2ckvsqzVvKrjrisY74.apk). 😎
+[Download APK](https://expo.dev/artifacts/eas/9RvnqypmpExZBjpvAZ7bCk.apk). 😎
 
 # Getting Started
 
